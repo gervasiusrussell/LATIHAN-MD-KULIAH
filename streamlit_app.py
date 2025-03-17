@@ -80,6 +80,8 @@ def main():
   band_like_infiltrate = st.slider('band like infiltrate', min_value = 0, max_value = 3, value = 0)
   
   age = st.slider('age', min_value = 0, max_value = 75, value = 40)
+
+  haha = st.selectbox('gender'('male','female'))
   
   #Input data for program
   # Input Data for Program

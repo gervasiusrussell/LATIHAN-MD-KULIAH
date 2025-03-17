@@ -81,7 +81,7 @@ def main():
   
   age = st.slider('age', min_value = 0, max_value = 75, value = 40)
 
-  haha = st.selectbox('gender'('male','female'))
+  haha = st.selectbox('gender',('male','female'))
   
   #Input data for program
   # Input Data for Program
